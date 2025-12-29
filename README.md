@@ -114,11 +114,3 @@ sudo systemctl enable --now smart-governor.service
 - Behavior depends on kernel interfaces (`/sys`); different distributions/hardware might expose governors or thermal sensors with different names.
 
 ---
-
-## Contributing & License
-
-Contributions welcome. Add issues/pull requests to improve robustness, add tests, or package the daemon for your distribution. Add a `LICENSE` file to specify project license (e.g., MIT).
-
----
-
-If you'd like, I can also add a `systemd` unit file in the repository or a small packaging script to install/uninstall the binary. 🔧
